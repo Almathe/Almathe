@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fiche entreprise | Almathe</title>
+  <meta name="description" content="Fiche detaillee d'une entreprise issue de l'annuaire du Congo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet" />
+  <meta name="theme-color" content="#0F172A" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" /><link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Almathe, Accueil"><span class="mark">A</span><span>Almathe &amp; Associés<small>Cabinet de Consulting</small></span></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="prestations.html">Prestations</a><a href="formation.html">Formation</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="annuaire-entreprises.html" class="active">Annuaire</a>
+        <a href="ressources/index.html">Ressources</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="btn btn-primary nav-cta">Prendre rendez-vous</a>
+      </nav>
+      <button class="burger" aria-label="Ouvrir le menu" aria-controls="drawer"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <button class="drawer-close" aria-label="Fermer le menu">&times;</button>
+    <a href="index.html">Accueil</a>
+    <a href="prestations.html">Prestations</a><a href="formation.html">Formation</a>
+    <a href="a-propos.html">À propos</a>
+    <a href="annuaire-entreprises.html">Annuaire</a>
+    <a href="ressources/index.html">Ressources</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Prendre rendez-vous</a>
+  </div>
+
+  <section class="hero" style="padding-bottom:clamp(2.5rem,5vw,4rem)">
+    <div class="hero-aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div class="container" data-reveal>
+      <span class="eyebrow">Fiche entreprise</span>
+      <h1 data-company-title>Chargement...</h1>
+      <p class="lead" data-company-subtitle></p>
+      <p style="margin-top:.9rem;color:rgba(226,232,240,.86)">Source des données: site de l'ACPCE, <a href="https://acpce.cg/liste-des-entreprises/" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline">acpce.cg/liste-des-entreprises</a>.</p>
+      <div class="hero-actions">
+        <a href="annuaire-entreprises.html" class="btn btn-outline-light">Retour à l'annuaire</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#fff">
+    <div class="container" data-reveal>
+      <dl class="company-detail" data-company-detail></dl>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html"><span class="mark">A</span><span>Almathe &amp; Associés<small>Cabinet de Consulting</small></span></a>
+          <p>Almathe &amp; Associés, cabinet de consulting. Conseil en stratégie, pilotage financier, direction financière externalisée, comptabilité, fiscalité &amp; RH pour PME, TPE et startups.</p>
+        </div>
+        <div><h5>Navigation</h5><ul><li><a href="index.html">Accueil</a></li><li><a href="prestations.html">Prestations</a></li><li></li><li><a href="formation.html">Formation</a></li><li><a href="a-propos.html">À propos</a></li><li><a href="annuaire-entreprises.html">Annuaire</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h5>Contact</h5><ul><li><a href="mailto:contact@almathe.net">contact@almathe.net</a></li><li><a href="tel:+33638888402">France : +33 6 38 88 84 02</a></li><li><a href="tel:+242068896558">Congo : +242 06 889 65 58</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Almathe &amp; Associés, Tous droits réservés.</span>
+        <span>Consulting · Stratégie · Finance · France &amp; Congo</span>
+        <span><a href="mentions-legales.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></span>
+        <span>Site développé par <a href="https://valduniari.com" target="_blank" rel="noopener">valduniari.com</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/entreprise.js" defer></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js'></script><script src='assets/js/animations.js'></script></body>
+</html>
