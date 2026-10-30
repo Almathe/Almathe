@@ -45,6 +45,89 @@ def pick_next_topic(data):
     return None, None
 
 
+def get_published_titles(data):
+    titles = []
+    for cluster in data["clusters"]:
+        for topic in cluster["topics"]:
+            if topic["status"] == "published":
+                titles.append(topic["title"])
+    return titles
+
+
+def generate_new_topic(data):
+    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+    model = genai.GenerativeModel("gemini-2.0-flash")
+
+    published = get_published_titles(data)
+    published_list = "\n".join(f"- {t}" for t in published) if published else "(aucun)"
+
+    cluster_names = [c["name"] for c in data["clusters"]]
+    clusters_list = "\n".join(f"- {n}" for n in cluster_names)
+
+    prompt = f"""Tu es stratège de contenu pour le cabinet de consulting Almathe & Associés (https://almathe.net), spécialisé en fiscalité, finance et conseil aux entreprises au Congo-Brazzaville et en France.
+
+ARTICLES DÉJÀ PUBLIÉS (ne PAS répéter ces sujets) :
+{published_list}
+
+CLUSTERS THÉMATIQUES EXISTANTS :
+{clusters_list}
+
+RÈGLES :
+- Le sujet doit concerner la fiscalité, la comptabilité, le droit des affaires ou la finance d'entreprise au Congo-Brazzaville
+- Privilégie les sujets pratiques recherchés par les dirigeants de PME/TPE
+- Le mot-clé doit être en français, longue traîne, facile à ranker (peu de concurrence)
+- Ne JAMAIS proposer un sujet déjà couvert dans la liste ci-dessus
+- Le sujet peut appartenir à un cluster existant ou en créer un nouveau
+
+Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
+{{
+  "cluster_id": "id-du-cluster-existant-ou-nouveau",
+  "cluster_name": "Nom du cluster",
+  "slug": "slug-url-en-kebab-case",
+  "title": "Titre SEO complet",
+  "keyword": "mot-clé principal longue traîne",
+  "intent": "informational|commercial",
+  "priority": "quick-win",
+  "description": "Ce que l'article couvre (1-2 phrases)",
+  "wordTarget": 1300,
+  "faq": ["Question FAQ 1 ?", "Question FAQ 2 ?"],
+  "internalLinks": ["article-existant-pertinent.html"]
+}}
+
+Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
+
+    response = model.generate_content(prompt)
+    text = response.text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    return json.loads(text)
+
+
+def inject_topic(data, new_topic):
+    cluster_id = new_topic.pop("cluster_id", "auto-generated")
+    cluster_name = new_topic.pop("cluster_name", "Sujets auto-générés")
+    new_topic["status"] = "pending"
+
+    target_cluster = None
+    for cluster in data["clusters"]:
+        if cluster["id"] == cluster_id:
+            target_cluster = cluster
+            break
+
+    if target_cluster is None:
+        target_cluster = {
+            "id": cluster_id,
+            "name": cluster_name,
+            "pillar": None,
+            "topics": [],
+        }
+        data["clusters"].append(target_cluster)
+
+    target_cluster["topics"].append(new_topic)
+    return target_cluster, new_topic
+
+
 def search_topic(keyword, num_results=8):
     results = []
     with DDGS() as ddgs:
@@ -290,8 +373,11 @@ def main():
     data = load_topics()
     cluster, topic = pick_next_topic(data)
     if topic is None:
-        print("Aucun sujet pending dans la file d'attente.")
-        sys.exit(0)
+        print("File d'attente vide — génération automatique d'un nouveau sujet...")
+        new_topic = generate_new_topic(data)
+        cluster, topic = inject_topic(data, new_topic)
+        save_topics(data)
+        print(f"Nouveau sujet créé : {topic['title']}")
 
     slug = topic["slug"]
     print(f"Sujet sélectionné : {topic['title']} [{slug}]")
