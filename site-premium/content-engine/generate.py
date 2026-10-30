@@ -240,7 +240,7 @@ Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
+    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -398,7 +398,7 @@ FORMAT DE SORTIE — renvoie UNIQUEMENT un objet JSON valide avec ces clés :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
+    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
