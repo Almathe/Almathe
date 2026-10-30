@@ -245,7 +245,7 @@ Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
   "cluster_id": "id-du-cluster-existant-ou-nouveau",
   "cluster_name": "Nom du cluster",
   "slug": "slug-url-en-kebab-case",
-  "title": "Titre SEO complet",
+  "title": "Titre SEO accrocheur (max 55 caractères, avec chiffre ou mot puissant)",
   "keyword": "mot-clé principal longue traîne",
   "intent": "informational|commercial",
   "priority": "quick-win",
@@ -396,17 +396,23 @@ CONSIGNES DE RÉDACTION :
 5. Termine par une section FAQ si des questions sont fournies
 6. Termine par un CTA : <p style="margin-top:2rem"><strong>Besoin d'un accompagnement ?</strong> <a href="../contact.html">Contactez Almathe &amp; Associés</a> pour un diagnostic personnalisé.</p>
 
+OPTIMISATION CTR (taux de clic Google) :
+- Le title doit faire max 55 caractères, contenir le mot-clé ET un déclencheur de clic (chiffre, année, mot puissant : Guide, Complet, Pratique, Essentiel, Éviter)
+- La meta_description fait max 150 caractères, commence par le bénéfice pour le lecteur, finit par un appel à l'action implicite
+- Le H1 peut être plus long et descriptif que le title
+- Exemples de bons titles : "IS Congo 2026 : taux, calcul et astuces [Guide]", "TVA Congo : 5 erreurs qui coûtent cher aux PME"
+
 FORMAT DE SORTIE — renvoie UNIQUEMENT un objet JSON valide avec ces clés :
 {{
-  "meta_description": "... (max 155 caractères, avec le mot-clé)",
-  "og_title": "... (max 70 caractères)",
-  "og_description": "... (max 200 caractères)",
+  "meta_description": "... (max 150 caractères, commence par le bénéfice, mot-clé inclus)",
+  "og_title": "... (max 60 caractères, accrocheur)",
+  "og_description": "... (max 155 caractères)",
   "headline": "... (titre JSON-LD)",
   "schema_description": "... (description JSON-LD)",
   "breadcrumb_name": "... (court, pour le fil d'ariane)",
   "eyebrow": "... (ex: Congo · Fiscalité)",
-  "h1": "... (titre H1 de l'article)",
-  "lead": "... (1-2 phrases d'accroche)",
+  "h1": "... (titre H1 complet de l'article, peut dépasser 60 caractères)",
+  "lead": "... (1-2 phrases d'accroche, engageantes)",
   "article_body": "... (le contenu HTML complet de l'article, avec balises h2, p, ul, table, etc.)",
   "faq_schema": [
     {{"question": "...", "answer": "..."}}
