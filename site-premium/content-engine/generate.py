@@ -274,17 +274,17 @@ def inject_topic(data, new_topic):
 
 def search_topic(keyword, num_results=8):
     results = []
-    with DDGS() as ddgs:
-        for query in [
-            f"{keyword} Congo-Brazzaville",
-            f"{keyword} DGID CGI",
-            f"{keyword} loi de finances Congo",
-        ]:
-            try:
-                hits = list(ddgs.text(query, region="fr-fr", max_results=num_results))
-                results.extend(hits)
-            except Exception:
-                continue
+    ddgs = DDGS(timeout=20)
+    for query in [
+        f"{keyword} Congo-Brazzaville",
+        f"{keyword} DGID CGI",
+        f"{keyword} loi de finances Congo",
+    ]:
+        try:
+            hits = list(ddgs.text(query, region="fr-fr", max_results=num_results))
+            results.extend(hits)
+        except Exception:
+            continue
     seen = set()
     unique = []
     for r in results:
