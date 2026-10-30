@@ -1,13 +1,16 @@
 """
 Almathe Content Engine — Daily Article Generator
-Uses Google Gemini (free tier) + DuckDuckGo for research.
+Uses Google Gemini (free tier) + DuckDuckGo + SGG.cg for research.
 Reads topics.json, generates one article, updates all site files.
+Scans Journal Officiel du Congo for new fiscal texts.
 """
 import json
 import os
 import re
 import sys
+import urllib.request
 from datetime import datetime, timedelta
+from html.parser import HTMLParser
 from pathlib import Path
 
 import google.generativeai as genai
@@ -24,6 +27,135 @@ LLMS_PATH = SITE_ROOT / "llms.txt"
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
 MAX_SOURCE_AGE_DAYS = 30
+
+SGG_URL = "https://sgg.cg/en/journal-officiel/le-journal-officiel.html"
+FISCAL_KEYWORDS = re.compile(
+    r"(fiscale?|imp[oô]t|taxe|TVA|douane|contribu|patente|budget|finance|"
+    r"DGID|CGI|redevance|exon[eé]r|OHADA|SYSCOHADA|SFEC|factur|CNSS|"
+    r"loi\s+de\s+finances|code\s+g[eé]n[eé]ral|droit\s+d.enregistrement)",
+    re.I,
+)
+
+
+class SGGLinkParser(HTMLParser):
+    """Extracts Journal Officiel links from the SGG page."""
+
+    def __init__(self, base_url):
+        super().__init__()
+        self.base_url = base_url
+        self.links = []
+        self._current_href = None
+        self._current_text = ""
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            href = dict(attrs).get("href", "")
+            if "/JO/" in href:
+                if href.startswith("/"):
+                    parts = urllib.request.urlparse(self.base_url)
+                    href = f"{parts.scheme}://{parts.netloc}{href}"
+                elif not href.startswith("http"):
+                    base = self.base_url.rsplit("/", 1)[0]
+                    href = f"{base}/{href}"
+                self._current_href = href
+                self._current_text = ""
+
+    def handle_data(self, data):
+        if self._current_href is not None:
+            self._current_text += data
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._current_href:
+            text = " ".join(self._current_text.split())
+            if text and "journal officiel" in text.lower():
+                date_match = re.search(r"(\d{2}/\d{2}/\d{4})", text)
+                self.links.append({
+                    "title": text,
+                    "href": self._current_href,
+                    "date": date_match.group(1) if date_match else "",
+                })
+            self._current_href = None
+            self._current_text = ""
+
+
+def fetch_sgg_publications(max_items=10):
+    try:
+        req = urllib.request.Request(
+            SGG_URL,
+            headers={
+                "User-Agent": "Almathe-ContentEngine/1.0 (+https://almathe.net/)",
+                "Accept": "text/html",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+        parser = SGGLinkParser(SGG_URL)
+        parser.feed(html)
+        return parser.links[:max_items]
+    except Exception as e:
+        print(f"  [WARN] Impossible de contacter sgg.cg : {e}")
+        return []
+
+
+def fetch_jo_text(url):
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Almathe-ContentEngine/1.0 (+https://almathe.net/)",
+                "Accept": "text/html",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            raw = resp.read().decode("utf-8", errors="replace")
+        text = re.sub(r"<[^>]+>", " ", raw)
+        text = re.sub(r"\s+", " ", text).strip()
+        return text[:5000]
+    except Exception:
+        return ""
+
+
+def scan_sgg_for_fiscal_texts():
+    print("Veille SGG : scan du Journal Officiel...")
+    publications = fetch_sgg_publications()
+    if not publications:
+        print("  Aucune publication récupérée depuis sgg.cg")
+        return [], []
+
+    print(f"  {len(publications)} numéros du JO trouvés")
+
+    fiscal_texts = []
+    for pub in publications:
+        jo_content = fetch_jo_text(pub["href"])
+        if not jo_content:
+            continue
+        if FISCAL_KEYWORDS.search(jo_content):
+            fiscal_texts.append({
+                "title": pub["title"],
+                "url": pub["href"],
+                "date": pub.get("date", ""),
+                "excerpt": jo_content[:2000],
+            })
+
+    if fiscal_texts:
+        print(f"  {len(fiscal_texts)} texte(s) à implication fiscale détecté(s)")
+    else:
+        print("  Aucun nouveau texte fiscal détecté")
+
+    return publications, fiscal_texts
+
+
+def build_sgg_context(fiscal_texts):
+    if not fiscal_texts:
+        return ""
+    lines = ["\n--- VEILLE SGG — TEXTES FISCAUX RÉCENTS DU JOURNAL OFFICIEL ---"]
+    for i, t in enumerate(fiscal_texts, 1):
+        lines.append(
+            f"\n[JO {i}] {t['title']} (date: {t['date']})\n"
+            f"URL: {t['url']}\n"
+            f"Extrait: {t['excerpt'][:1500]}\n"
+        )
+    return "\n".join(lines)
 
 
 def load_topics():
@@ -54,7 +186,7 @@ def get_published_titles(data):
     return titles
 
 
-def generate_new_topic(data):
+def generate_new_topic(data, fiscal_texts=None):
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
     model = genai.GenerativeModel("gemini-2.0-flash")
 
@@ -64,6 +196,18 @@ def generate_new_topic(data):
     cluster_names = [c["name"] for c in data["clusters"]]
     clusters_list = "\n".join(f"- {n}" for n in cluster_names)
 
+    sgg_block = ""
+    if fiscal_texts:
+        sgg_lines = []
+        for t in fiscal_texts:
+            sgg_lines.append(f"- {t['title']} ({t['date']}) : {t['excerpt'][:300]}...")
+        sgg_block = (
+            "\nTEXTES FISCAUX RÉCENTS DU JOURNAL OFFICIEL (SGG.CG) :\n"
+            + "\n".join(sgg_lines)
+            + "\n\nSi l'un de ces textes introduit une nouveauté fiscale non encore couverte, "
+            "propose un article qui l'analyse pour les dirigeants de PME.\n"
+        )
+
     prompt = f"""Tu es stratège de contenu pour le cabinet de consulting Almathe & Associés (https://almathe.net), spécialisé en fiscalité, finance et conseil aux entreprises au Congo-Brazzaville et en France.
 
 ARTICLES DÉJÀ PUBLIÉS (ne PAS répéter ces sujets) :
@@ -71,13 +215,14 @@ ARTICLES DÉJÀ PUBLIÉS (ne PAS répéter ces sujets) :
 
 CLUSTERS THÉMATIQUES EXISTANTS :
 {clusters_list}
-
+{sgg_block}
 RÈGLES :
 - Le sujet doit concerner la fiscalité, la comptabilité, le droit des affaires ou la finance d'entreprise au Congo-Brazzaville
 - Privilégie les sujets pratiques recherchés par les dirigeants de PME/TPE
 - Le mot-clé doit être en français, longue traîne, facile à ranker (peu de concurrence)
 - Ne JAMAIS proposer un sujet déjà couvert dans la liste ci-dessus
 - Le sujet peut appartenir à un cluster existant ou en créer un nouveau
+- Si un texte fiscal récent du JO est pertinent, propose un article qui l'analyse
 
 Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
 {{
@@ -372,9 +517,12 @@ def mark_published(data, slug):
 def main():
     data = load_topics()
     cluster, topic = pick_next_topic(data)
+
+    sgg_pubs, fiscal_texts = scan_sgg_for_fiscal_texts()
+
     if topic is None:
         print("File d'attente vide — génération automatique d'un nouveau sujet...")
-        new_topic = generate_new_topic(data)
+        new_topic = generate_new_topic(data, fiscal_texts=fiscal_texts)
         cluster, topic = inject_topic(data, new_topic)
         save_topics(data)
         print(f"Nouveau sujet créé : {topic['title']}")
@@ -382,11 +530,15 @@ def main():
     slug = topic["slug"]
     print(f"Sujet sélectionné : {topic['title']} [{slug}]")
 
-    print("Recherche en cours...")
+    print("Recherche DuckDuckGo en cours...")
     raw_results = search_topic(topic["keyword"])
     results = filter_fresh_sources(raw_results)
     print(f"  {len(results)} sources retenues (sur {len(raw_results)} trouvées)")
     research_context = build_research_context(results)
+
+    sgg_context = build_sgg_context(fiscal_texts)
+    if sgg_context:
+        research_context += sgg_context
 
     print("Génération de l'article via Gemini...")
     content = generate_article_content(topic, cluster, research_context)
