@@ -35,7 +35,8 @@
           "wordTarget": 1200,
           "faq": ["Quel est le taux de pénalité pour retard de TVA au Congo ?", "Comment régulariser un retard fiscal ?"],
           "internalLinks": ["fiscalite-entreprises-congo-2026.html", "calendrier-fiscal-congo-2027.html"],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-10-30"
         },
         {
           "slug": "regime-fiscal-reel-simplifie-congo",
