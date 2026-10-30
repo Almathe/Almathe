@@ -8,6 +8,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
@@ -27,6 +28,8 @@ LLMS_PATH = SITE_ROOT / "llms.txt"
 
 TODAY = datetime.now().strftime("%Y-%m-%d")
 MAX_SOURCE_AGE_DAYS = 30
+GEMINI_MAX_RETRIES = 4
+GEMINI_RETRY_DELAYS = [15, 30, 60, 120]
 
 SGG_URL = "https://sgg.cg/en/journal-officiel/le-journal-officiel.html"
 FISCAL_KEYWORDS = re.compile(
@@ -158,6 +161,20 @@ def build_sgg_context(fiscal_texts):
     return "\n".join(lines)
 
 
+def _gemini_call(client, prompt):
+    for attempt in range(GEMINI_MAX_RETRIES + 1):
+        try:
+            return client.models.generate_content(
+                model="gemini-3.8-flash", contents=prompt,
+            )
+        except Exception as e:
+            if attempt == GEMINI_MAX_RETRIES:
+                raise
+            delay = GEMINI_RETRY_DELAYS[attempt]
+            print(f"  [RETRY] Gemini erreur ({e.__class__.__name__}), nouvel essai dans {delay}s...")
+            time.sleep(delay)
+
+
 def load_topics():
     with open(TOPICS_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -240,7 +257,7 @@ Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
+    response = _gemini_call(client, prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -398,7 +415,7 @@ FORMAT DE SORTIE — renvoie UNIQUEMENT un objet JSON valide avec ces clés :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = client.models.generate_content(model="gemini-3.8-flash", contents=prompt)
+    response = _gemini_call(client, prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
