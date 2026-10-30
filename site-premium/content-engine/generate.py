@@ -13,8 +13,8 @@ from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
 
-import google.generativeai as genai
-from duckduckgo_search import DDGS
+from google import genai
+from ddgs import DDGS
 
 SITE_ROOT = Path(__file__).resolve().parent.parent
 ENGINE_DIR = SITE_ROOT / "content-engine"
@@ -187,8 +187,7 @@ def get_published_titles(data):
 
 
 def generate_new_topic(data, fiscal_texts=None):
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     published = get_published_titles(data)
     published_list = "\n".join(f"- {t}" for t in published) if published else "(aucun)"
@@ -241,7 +240,7 @@ Propose UN nouveau sujet. Renvoie UNIQUEMENT un objet JSON valide :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
@@ -339,8 +338,7 @@ def build_internal_links_context(topic):
 
 
 def generate_article_content(topic, cluster, research_context):
-    genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
     faq_items = topic.get("faq", [])
     faq_instruction = ""
@@ -400,7 +398,7 @@ FORMAT DE SORTIE — renvoie UNIQUEMENT un objet JSON valide avec ces clés :
 
 Renvoie UNIQUEMENT le JSON, sans ```json ni texte autour."""
 
-    response = model.generate_content(prompt)
+    response = client.models.generate_content(model="gemini-2.0-flash", contents=prompt)
     text = response.text.strip()
     if text.startswith("```"):
         text = re.sub(r"^```(?:json)?\s*", "", text)
