@@ -20,8 +20,14 @@
           "priority": "quick-win",
           "description": "Échéancier complet des déclarations et paiements (IS, TVA, TSS, patente, ITS, CNSS) avec rappels pratiques.",
           "wordTarget": 1500,
-          "faq": ["Quand déclarer l'IS au Congo ?", "Quelles sont les pénalités de retard fiscal au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "e-tax-declaration-paiement-impots-congo.html"],
+          "faq": [
+            "Quand déclarer l'IS au Congo ?",
+            "Quelles sont les pénalités de retard fiscal au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "e-tax-declaration-paiement-impots-congo.html"
+          ],
           "status": "published",
           "publishedDate": "2026-10-30"
         },
@@ -33,8 +39,14 @@
           "priority": "quick-win",
           "description": "Majoration de retard, pénalités d'assiette, amendes fiscales : tout ce que risque une entreprise en cas de retard déclaratif ou de paiement.",
           "wordTarget": 1200,
-          "faq": ["Quel est le taux de pénalité pour retard de TVA au Congo ?", "Comment régulariser un retard fiscal ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "calendrier-fiscal-congo-2027.html"],
+          "faq": [
+            "Quel est le taux de pénalité pour retard de TVA au Congo ?",
+            "Comment régulariser un retard fiscal ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "calendrier-fiscal-congo-2027.html"
+          ],
           "status": "published",
           "publishedDate": "2026-10-30"
         },
@@ -46,9 +58,16 @@
           "priority": "quick-win",
           "description": "Comparatif des deux régimes d'imposition pour les PME congolaises : seuils, obligations comptables, avantages et inconvénients.",
           "wordTarget": 1400,
-          "faq": ["Quel régime fiscal pour une SARL au Congo ?", "À partir de quel chiffre d'affaires passer au réel normal ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "statut-entreprenant-congo.html"],
-          "status": "pending"
+          "faq": [
+            "Quel régime fiscal pour une SARL au Congo ?",
+            "À partir de quel chiffre d'affaires passer au réel normal ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "statut-entreprenant-congo.html"
+          ],
+          "status": "published",
+          "publishedDate": "2026-10-30"
         },
         {
           "slug": "exonerations-fiscales-congo-2026",
@@ -58,8 +77,14 @@
           "priority": "big-bet",
           "description": "ZES, charte des investissements, régimes dérogatoires sectoriels, exonérations temporaires : cartographie de tous les avantages fiscaux disponibles.",
           "wordTarget": 2000,
-          "faq": ["Quelles exonérations pour une entreprise nouvelle au Congo ?", "Comment bénéficier du régime ZES ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "loi-finances-2026-congo-mesures-fiscales.html"],
+          "faq": [
+            "Quelles exonérations pour une entreprise nouvelle au Congo ?",
+            "Comment bénéficier du régime ZES ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "loi-finances-2026-congo-mesures-fiscales.html"
+          ],
           "status": "pending"
         },
         {
@@ -70,8 +95,14 @@
           "priority": "quick-win",
           "description": "Régime fiscal de l'entreprenant/auto-entrepreneur : impôt libératoire, patente forfaitaire, TVA franchise, obligations déclaratives minimales.",
           "wordTarget": 1200,
-          "faq": ["L'auto-entrepreneur paie-t-il la TVA au Congo ?", "Quel impôt pour un petit commerce au Congo ?"],
-          "internalLinks": ["statut-entreprenant-congo.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "L'auto-entrepreneur paie-t-il la TVA au Congo ?",
+            "Quel impôt pour un petit commerce au Congo ?"
+          ],
+          "internalLinks": [
+            "statut-entreprenant-congo.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -82,8 +113,13 @@
           "priority": "big-bet",
           "description": "Analyse de la convention bilatérale : résidence fiscale, revenus visés, crédit d'impôt, dividendes, redevances et intérêts entre France et Congo.",
           "wordTarget": 1800,
-          "faq": ["Existe-t-il une convention fiscale entre la France et le Congo ?", "Comment éviter la double imposition France-Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Existe-t-il une convention fiscale entre la France et le Congo ?",
+            "Comment éviter la double imposition France-Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -94,8 +130,12 @@
           "priority": "fill-in",
           "description": "Contribution foncière des propriétés bâties et non bâties : qui paie, combien, quand, et les exonérations possibles.",
           "wordTarget": 1000,
-          "faq": ["Quel est le taux de la taxe foncière au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quel est le taux de la taxe foncière au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -106,8 +146,13 @@
           "priority": "fill-in",
           "description": "Mécanisme de l'IMF, articulation avec la TSS, calcul pratique et stratégie d'optimisation pour les PME déficitaires.",
           "wordTarget": 1000,
-          "faq": ["Une entreprise déficitaire paie-t-elle des impôts au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "impot-societes-is-congo-2026.html"],
+          "faq": [
+            "Une entreprise déficitaire paie-t-elle des impôts au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "impot-societes-is-congo-2026.html"
+          ],
           "status": "pending"
         }
       ]
@@ -125,8 +170,14 @@
           "priority": "quick-win",
           "description": "Régime TVA des opérations internationales : TVA à l'import (taux, assiette, paiement en douane), taux zéro export, crédit de TVA et remboursement.",
           "wordTarget": 1500,
-          "faq": ["Comment récupérer la TVA sur les exportations au Congo ?", "La TVA est-elle due sur les importations au Congo ?"],
-          "internalLinks": ["teledeclarer-tva-congo-etapes.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Comment récupérer la TVA sur les exportations au Congo ?",
+            "La TVA est-elle due sur les importations au Congo ?"
+          ],
+          "internalLinks": [
+            "teledeclarer-tva-congo-etapes.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -137,8 +188,14 @@
           "priority": "quick-win",
           "description": "Quand naît un crédit de TVA, comment le reporter, quand demander le remboursement, délais et pièces justificatives.",
           "wordTarget": 1300,
-          "faq": ["Comment se faire rembourser un crédit de TVA au Congo ?", "Quel est le délai de remboursement de TVA au Congo ?"],
-          "internalLinks": ["teledeclarer-tva-congo-etapes.html", "tva-import-export-congo.html"],
+          "faq": [
+            "Comment se faire rembourser un crédit de TVA au Congo ?",
+            "Quel est le délai de remboursement de TVA au Congo ?"
+          ],
+          "internalLinks": [
+            "teledeclarer-tva-congo-etapes.html",
+            "tva-import-export-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -149,8 +206,13 @@
           "priority": "fill-in",
           "description": "Liste exhaustive des biens de consommation courante soumis au taux réduit de 5 % et conditions d'application.",
           "wordTarget": 1000,
-          "faq": ["Quels produits bénéficient de la TVA à 5 % au Congo ?"],
-          "internalLinks": ["teledeclarer-tva-congo-etapes.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quels produits bénéficient de la TVA à 5 % au Congo ?"
+          ],
+          "internalLinks": [
+            "teledeclarer-tva-congo-etapes.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -161,8 +223,12 @@
           "priority": "quick-win",
           "description": "Lieu d'imposition, fait générateur, exigibilité et obligations déclaratives pour les prestataires de services au Congo.",
           "wordTarget": 1200,
-          "faq": ["Une prestation réalisée pour un client étranger est-elle soumise à la TVA congolaise ?"],
-          "internalLinks": ["teledeclarer-tva-congo-etapes.html"],
+          "faq": [
+            "Une prestation réalisée pour un client étranger est-elle soumise à la TVA congolaise ?"
+          ],
+          "internalLinks": [
+            "teledeclarer-tva-congo-etapes.html"
+          ],
           "status": "pending"
         },
         {
@@ -173,8 +239,14 @@
           "priority": "quick-win",
           "description": "Opérations exonérées de TVA au Congo : santé, éducation, opérations bancaires, assurances, associations, marchés publics financés par aide internationale.",
           "wordTarget": 1200,
-          "faq": ["Quelles activités sont exonérées de TVA au Congo ?", "Les ONG paient-elles la TVA au Congo ?"],
-          "internalLinks": ["teledeclarer-tva-congo-etapes.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quelles activités sont exonérées de TVA au Congo ?",
+            "Les ONG paient-elles la TVA au Congo ?"
+          ],
+          "internalLinks": [
+            "teledeclarer-tva-congo-etapes.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -185,8 +257,14 @@
           "priority": "quick-win",
           "description": "Mentions obligatoires, numérotation, SFEC, exemplaire unique : les règles pour une facture TVA valide au Congo avec un modèle téléchargeable.",
           "wordTarget": 1300,
-          "faq": ["Quelles mentions obligatoires sur une facture au Congo ?", "Une facture sans SFEC est-elle valable ?"],
-          "internalLinks": ["sfec-facture-electronique-congo.html", "teledeclarer-tva-congo-etapes.html"],
+          "faq": [
+            "Quelles mentions obligatoires sur une facture au Congo ?",
+            "Une facture sans SFEC est-elle valable ?"
+          ],
+          "internalLinks": [
+            "sfec-facture-electronique-congo.html",
+            "teledeclarer-tva-congo-etapes.html"
+          ],
           "status": "pending"
         }
       ]
@@ -204,8 +282,14 @@
           "priority": "quick-win",
           "description": "Liste des charges déductibles du résultat fiscal, conditions de déductibilité, charges réintégrées et pièges courants (amortissements, provisions, etc.).",
           "wordTarget": 1500,
-          "faq": ["Quelles charges sont déductibles de l'IS au Congo ?", "Les provisions sont-elles déductibles au Congo ?"],
-          "internalLinks": ["impot-societes-is-congo-2026.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quelles charges sont déductibles de l'IS au Congo ?",
+            "Les provisions sont-elles déductibles au Congo ?"
+          ],
+          "internalLinks": [
+            "impot-societes-is-congo-2026.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -216,8 +300,14 @@
           "priority": "quick-win",
           "description": "Mécanisme des acomptes trimestriels, calcul du montant, imputation sur l'IS final, pénalités de retard.",
           "wordTarget": 1100,
-          "faq": ["Comment calculer les acomptes d'IS au Congo ?", "Quand payer les acomptes d'IS au Congo ?"],
-          "internalLinks": ["impot-societes-is-congo-2026.html", "calendrier-fiscal-congo-2027.html"],
+          "faq": [
+            "Comment calculer les acomptes d'IS au Congo ?",
+            "Quand payer les acomptes d'IS au Congo ?"
+          ],
+          "internalLinks": [
+            "impot-societes-is-congo-2026.html",
+            "calendrier-fiscal-congo-2027.html"
+          ],
           "status": "pending"
         },
         {
@@ -228,8 +318,14 @@
           "priority": "quick-win",
           "description": "Retenues sur loyers, honoraires, dividendes, intérêts, prestations étrangères : taux, fait générateur, déclaration et reversement.",
           "wordTarget": 1400,
-          "faq": ["Quel est le taux de retenue à la source sur les loyers au Congo ?", "Les dividendes sont-ils soumis à retenue au Congo ?"],
-          "internalLinks": ["impot-societes-is-congo-2026.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quel est le taux de retenue à la source sur les loyers au Congo ?",
+            "Les dividendes sont-ils soumis à retenue au Congo ?"
+          ],
+          "internalLinks": [
+            "impot-societes-is-congo-2026.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -240,8 +336,12 @@
           "priority": "fill-in",
           "description": "Taux dérogatoires de l'IS par secteur d'activité et conditions d'éligibilité.",
           "wordTarget": 1000,
-          "faq": ["Quel est le taux d'IS pour une société minière au Congo ?"],
-          "internalLinks": ["impot-societes-is-congo-2026.html"],
+          "faq": [
+            "Quel est le taux d'IS pour une société minière au Congo ?"
+          ],
+          "internalLinks": [
+            "impot-societes-is-congo-2026.html"
+          ],
           "status": "pending"
         }
       ]
@@ -259,8 +359,13 @@
           "priority": "quick-win",
           "description": "Simulation complète du calcul de l'ITS pour un salarié congolais : salaire brut → base imposable → quotient familial → barème → retenue mensuelle.",
           "wordTarget": 1500,
-          "faq": ["Comment calculer l'ITS d'un salarié au Congo ?", "Quel est le barème de l'ITS au Congo en 2026 ?"],
-          "internalLinks": ["impot-traitements-salaires-its-congo.html"],
+          "faq": [
+            "Comment calculer l'ITS d'un salarié au Congo ?",
+            "Quel est le barème de l'ITS au Congo en 2026 ?"
+          ],
+          "internalLinks": [
+            "impot-traitements-salaires-its-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -271,8 +376,13 @@
           "priority": "quick-win",
           "description": "Parts patronale et salariale, plafond, accidents du travail, prestations familiales, retraite : le détail des charges sociales CNSS.",
           "wordTarget": 1300,
-          "faq": ["Quel est le taux de cotisation CNSS au Congo ?", "L'employeur paie-t-il la CNSS sur les primes ?"],
-          "internalLinks": ["impot-traitements-salaires-its-congo.html"],
+          "faq": [
+            "Quel est le taux de cotisation CNSS au Congo ?",
+            "L'employeur paie-t-il la CNSS sur les primes ?"
+          ],
+          "internalLinks": [
+            "impot-traitements-salaires-its-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -283,8 +393,13 @@
           "priority": "quick-win",
           "description": "Structure légale du bulletin de paie, mentions obligatoires, retenues (ITS, CNSS, TUS), avantages en nature et exemple complet.",
           "wordTarget": 1400,
-          "faq": ["Quelles sont les mentions obligatoires sur un bulletin de paie au Congo ?"],
-          "internalLinks": ["impot-traitements-salaires-its-congo.html", "cotisations-sociales-cnss-congo.html"],
+          "faq": [
+            "Quelles sont les mentions obligatoires sur un bulletin de paie au Congo ?"
+          ],
+          "internalLinks": [
+            "impot-traitements-salaires-its-congo.html",
+            "cotisations-sociales-cnss-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -295,8 +410,12 @@
           "priority": "fill-in",
           "description": "Logement, véhicule, domesticité : barèmes d'évaluation forfaitaire, inclusion dans la base ITS et TUS.",
           "wordTarget": 1000,
-          "faq": ["Comment évaluer un logement de fonction au Congo pour l'ITS ?"],
-          "internalLinks": ["impot-traitements-salaires-its-congo.html"],
+          "faq": [
+            "Comment évaluer un logement de fonction au Congo pour l'ITS ?"
+          ],
+          "internalLinks": [
+            "impot-traitements-salaires-its-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -307,8 +426,14 @@
           "priority": "quick-win",
           "description": "Assiette, taux (7,5 %), fait générateur, exonérations et articulation avec les charges sociales.",
           "wordTarget": 1100,
-          "faq": ["Quel est le taux de la TUS au Congo ?", "La TUS est-elle une charge patronale ou salariale ?"],
-          "internalLinks": ["impot-traitements-salaires-its-congo.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quel est le taux de la TUS au Congo ?",
+            "La TUS est-elle une charge patronale ou salariale ?"
+          ],
+          "internalLinks": [
+            "impot-traitements-salaires-its-congo.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         }
       ]
@@ -326,8 +451,14 @@
           "priority": "quick-win",
           "description": "Avantages, coûts et cas d'usage de chaque méthode de certification SFEC pour aider le dirigeant à choisir.",
           "wordTarget": 1500,
-          "faq": ["Quelle solution SFEC choisir pour une PME au Congo ?", "Combien coûte la certification SFEC ?"],
-          "internalLinks": ["sfec-facture-electronique-congo.html", "report-sfec-facture-electronique-congo.html"],
+          "faq": [
+            "Quelle solution SFEC choisir pour une PME au Congo ?",
+            "Combien coûte la certification SFEC ?"
+          ],
+          "internalLinks": [
+            "sfec-facture-electronique-congo.html",
+            "report-sfec-facture-electronique-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -338,8 +469,13 @@
           "priority": "quick-win",
           "description": "Amendes, rejet de charges, majoration d'impôt : les conséquences concrètes d'une facturation hors SFEC après les nouvelles échéances.",
           "wordTarget": 1000,
-          "faq": ["Que risque une entreprise sans SFEC au Congo ?"],
-          "internalLinks": ["sfec-facture-electronique-congo.html", "report-sfec-facture-electronique-congo.html"],
+          "faq": [
+            "Que risque une entreprise sans SFEC au Congo ?"
+          ],
+          "internalLinks": [
+            "sfec-facture-electronique-congo.html",
+            "report-sfec-facture-electronique-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -350,8 +486,12 @@
           "priority": "fill-in",
           "description": "API DGID, connecteurs e-FACTURE, processus d'homologation et checklist technique pour les éditeurs et entreprises.",
           "wordTarget": 1200,
-          "faq": ["Mon logiciel comptable est-il compatible SFEC ?"],
-          "internalLinks": ["sfec-facture-electronique-congo.html"],
+          "faq": [
+            "Mon logiciel comptable est-il compatible SFEC ?"
+          ],
+          "internalLinks": [
+            "sfec-facture-electronique-congo.html"
+          ],
           "status": "pending"
         }
       ]
@@ -369,8 +509,14 @@
           "priority": "quick-win",
           "description": "Guide pas à pas pour constituer une SARL au Congo-Brazzaville : capital minimum, rédaction des statuts, immatriculation ACPCE, coûts réels.",
           "wordTarget": 1500,
-          "faq": ["Quel capital minimum pour une SARL au Congo ?", "Combien coûte la création d'une SARL au Congo ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html", "statut-entreprenant-congo.html"],
+          "faq": [
+            "Quel capital minimum pour une SARL au Congo ?",
+            "Combien coûte la création d'une SARL au Congo ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html",
+            "statut-entreprenant-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -381,8 +527,12 @@
           "priority": "fill-in",
           "description": "Capital minimum (10 millions FCFA), administrateurs, commissaire aux comptes, assemblée générale : le cadre OHADA de la SA au Congo.",
           "wordTarget": 1400,
-          "faq": ["Quel est le capital minimum d'une SA au Congo ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html"],
+          "faq": [
+            "Quel est le capital minimum d'une SA au Congo ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html"
+          ],
           "status": "pending"
         },
         {
@@ -393,8 +543,14 @@
           "priority": "quick-win",
           "description": "Comparatif juridique, fiscal et opérationnel entre succursale et filiale pour une entreprise étrangère s'installant au Congo.",
           "wordTarget": 1300,
-          "faq": ["Vaut-il mieux ouvrir une succursale ou une filiale au Congo ?", "Une succursale paie-t-elle l'IS au Congo ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Vaut-il mieux ouvrir une succursale ou une filiale au Congo ?",
+            "Une succursale paie-t-elle l'IS au Congo ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -405,8 +561,13 @@
           "priority": "quick-win",
           "description": "DGID, CNSS, patente, TVA, SFEC, comptabilité, compte bancaire : la checklist complète des 30 premiers jours post-création.",
           "wordTarget": 1200,
-          "faq": ["Que faire après avoir créé son entreprise au Congo ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html", "retard-fiscal-creation-entreprise-congo.html"],
+          "faq": [
+            "Que faire après avoir créé son entreprise au Congo ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html",
+            "retard-fiscal-creation-entreprise-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -417,8 +578,13 @@
           "priority": "fill-in",
           "description": "Régime juridique et fiscal du GIE en droit OHADA : avantages, limites, création et obligations.",
           "wordTarget": 1000,
-          "faq": ["Qu'est-ce qu'un GIE au Congo ?", "Le GIE paie-t-il l'IS ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html"],
+          "faq": [
+            "Qu'est-ce qu'un GIE au Congo ?",
+            "Le GIE paie-t-il l'IS ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html"
+          ],
           "status": "pending"
         },
         {
@@ -429,8 +595,14 @@
           "priority": "quick-win",
           "description": "Comment obtenir son Numéro d'Identification Fiscale (NIF) auprès de la DGID, à quoi il sert, et les pénalités en cas d'absence.",
           "wordTarget": 1000,
-          "faq": ["Comment obtenir un NIF au Congo ?", "Le NIF est-il obligatoire pour facturer ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html", "e-tax-declaration-paiement-impots-congo.html"],
+          "faq": [
+            "Comment obtenir un NIF au Congo ?",
+            "Le NIF est-il obligatoire pour facturer ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html",
+            "e-tax-declaration-paiement-impots-congo.html"
+          ],
           "status": "pending"
         }
       ]
@@ -448,8 +620,13 @@
           "priority": "big-bet",
           "description": "Les changements majeurs du SYSCOHADA révisé (2017/2018) : nouvelles règles d'évaluation, états financiers, provisions, amortissements et impact pratique.",
           "wordTarget": 2000,
-          "faq": ["Quand le SYSCOHADA révisé est-il entré en vigueur au Congo ?", "Quelles sont les principales différences avec l'ancien SYSCOHADA ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quand le SYSCOHADA révisé est-il entré en vigueur au Congo ?",
+            "Quelles sont les principales différences avec l'ancien SYSCOHADA ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -460,8 +637,13 @@
           "priority": "quick-win",
           "description": "Bilan, compte de résultat, TFT, tableau de variation des capitaux propres, notes annexes : structure et mentions obligatoires.",
           "wordTarget": 1500,
-          "faq": ["Quels sont les états financiers obligatoires en SYSCOHADA ?", "Le TFT est-il obligatoire pour les PME au Congo ?"],
-          "internalLinks": ["syscohada-revise-guide-congo.html"],
+          "faq": [
+            "Quels sont les états financiers obligatoires en SYSCOHADA ?",
+            "Le TFT est-il obligatoire pour les PME au Congo ?"
+          ],
+          "internalLinks": [
+            "syscohada-revise-guide-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -472,8 +654,13 @@
           "priority": "quick-win",
           "description": "Amortissement linéaire, dégressif, par composants : règles SYSCOHADA révisé, durées d'utilité et impact fiscal au Congo.",
           "wordTarget": 1300,
-          "faq": ["Quelle est la durée d'amortissement d'un véhicule en SYSCOHADA ?"],
-          "internalLinks": ["syscohada-revise-guide-congo.html", "charges-deductibles-is-congo.html"],
+          "faq": [
+            "Quelle est la durée d'amortissement d'un véhicule en SYSCOHADA ?"
+          ],
+          "internalLinks": [
+            "syscohada-revise-guide-congo.html",
+            "charges-deductibles-is-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -484,8 +671,14 @@
           "priority": "quick-win",
           "description": "Qui peut utiliser le SMT, obligations, registres, états de synthèse et limites par rapport au système normal.",
           "wordTarget": 1200,
-          "faq": ["Qui peut tenir une comptabilité simplifiée au Congo ?", "Quel est le seuil du SMT en OHADA ?"],
-          "internalLinks": ["syscohada-revise-guide-congo.html", "statut-entreprenant-congo.html"],
+          "faq": [
+            "Qui peut tenir une comptabilité simplifiée au Congo ?",
+            "Quel est le seuil du SMT en OHADA ?"
+          ],
+          "internalLinks": [
+            "syscohada-revise-guide-congo.html",
+            "statut-entreprenant-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -496,8 +689,14 @@
           "priority": "quick-win",
           "description": "États financiers + annexes fiscales : composition de la liasse, délai de dépôt (30 avril), pénalités et lien avec E-TAX.",
           "wordTarget": 1200,
-          "faq": ["Quand déposer la liasse fiscale au Congo ?", "Quels documents composent la liasse fiscale congolaise ?"],
-          "internalLinks": ["e-tax-declaration-paiement-impots-congo.html", "fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quand déposer la liasse fiscale au Congo ?",
+            "Quels documents composent la liasse fiscale congolaise ?"
+          ],
+          "internalLinks": [
+            "e-tax-declaration-paiement-impots-congo.html",
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         }
       ]
@@ -515,8 +714,14 @@
           "priority": "big-bet",
           "description": "Avis de vérification, droit de communication, procédure contradictoire, recours hiérarchique et contentieux : le guide complet du contrôle fiscal.",
           "wordTarget": 2000,
-          "faq": ["Comment se passe un contrôle fiscal au Congo ?", "Quels sont les droits de l'entreprise face au fisc congolais ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "penalites-retard-fiscal-congo.html"],
+          "faq": [
+            "Comment se passe un contrôle fiscal au Congo ?",
+            "Quels sont les droits de l'entreprise face au fisc congolais ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "penalites-retard-fiscal-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -527,8 +732,13 @@
           "priority": "quick-win",
           "description": "Notification de redressement, délai de réponse, recours gracieux, réclamation contentieuse et saisine du tribunal.",
           "wordTarget": 1300,
-          "faq": ["Comment contester un redressement fiscal au Congo ?"],
-          "internalLinks": ["controle-fiscal-congo-deroulement.html", "penalites-retard-fiscal-congo.html"],
+          "faq": [
+            "Comment contester un redressement fiscal au Congo ?"
+          ],
+          "internalLinks": [
+            "controle-fiscal-congo-deroulement.html",
+            "penalites-retard-fiscal-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -539,8 +749,12 @@
           "priority": "fill-in",
           "description": "Délai de reprise de l'administration (3 ans en général), causes d'interruption et de suspension, cas spéciaux.",
           "wordTarget": 1000,
-          "faq": ["Quel est le délai de prescription fiscale au Congo ?"],
-          "internalLinks": ["controle-fiscal-congo-deroulement.html"],
+          "faq": [
+            "Quel est le délai de prescription fiscale au Congo ?"
+          ],
+          "internalLinks": [
+            "controle-fiscal-congo-deroulement.html"
+          ],
           "status": "pending"
         }
       ]
@@ -558,8 +772,13 @@
           "priority": "quick-win",
           "description": "Étapes d'inscription sur impots.gouv.cg, pièces requises, activation du compte et premiers réflexes sur la plateforme.",
           "wordTarget": 1200,
-          "faq": ["Comment s'inscrire sur E-TAX au Congo ?", "Quels documents pour ouvrir un compte E-TAX ?"],
-          "internalLinks": ["e-tax-declaration-paiement-impots-congo.html"],
+          "faq": [
+            "Comment s'inscrire sur E-TAX au Congo ?",
+            "Quels documents pour ouvrir un compte E-TAX ?"
+          ],
+          "internalLinks": [
+            "e-tax-declaration-paiement-impots-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -570,8 +789,12 @@
           "priority": "quick-win",
           "description": "Paiement par virement, mobile money, chèque certifié : modes acceptés, délais de traitement et comment éviter les rejets.",
           "wordTarget": 1100,
-          "faq": ["Peut-on payer ses impôts par mobile money au Congo ?"],
-          "internalLinks": ["e-tax-declaration-paiement-impots-congo.html"],
+          "faq": [
+            "Peut-on payer ses impôts par mobile money au Congo ?"
+          ],
+          "internalLinks": [
+            "e-tax-declaration-paiement-impots-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -582,8 +805,14 @@
           "priority": "quick-win",
           "description": "Quand l'attestation est exigée (marchés publics, banque), procédure de demande en ligne et en personne, délai et validité.",
           "wordTarget": 1000,
-          "faq": ["Comment obtenir une attestation fiscale au Congo ?", "Combien de temps est valable l'attestation fiscale ?"],
-          "internalLinks": ["e-tax-declaration-paiement-impots-congo.html", "nif-congo-numero-identification-fiscale.html"],
+          "faq": [
+            "Comment obtenir une attestation fiscale au Congo ?",
+            "Combien de temps est valable l'attestation fiscale ?"
+          ],
+          "internalLinks": [
+            "e-tax-declaration-paiement-impots-congo.html",
+            "nif-congo-numero-identification-fiscale.html"
+          ],
           "status": "pending"
         }
       ]
@@ -601,8 +830,13 @@
           "priority": "quick-win",
           "description": "IRPP sur les revenus fonciers, plus-values de cession, droits d'enregistrement, taxe foncière et taxe d'habitation.",
           "wordTarget": 1500,
-          "faq": ["Quel impôt sur les loyers au Congo ?", "Comment déclarer les revenus locatifs au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Quel impôt sur les loyers au Congo ?",
+            "Comment déclarer les revenus locatifs au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -613,8 +847,13 @@
           "priority": "fill-in",
           "description": "Contrats de partage de production, redevance minière, IS spécifique, taxe sur les superprofits et obligations déclaratives.",
           "wordTarget": 1500,
-          "faq": ["Comment sont imposées les sociétés pétrolières au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "is-taux-sectoriels-congo.html"],
+          "faq": [
+            "Comment sont imposées les sociétés pétrolières au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "is-taux-sectoriels-congo.html"
+          ],
           "status": "pending"
         },
         {
@@ -625,8 +864,12 @@
           "priority": "fill-in",
           "description": "Taxe sur les terminaux SIM (loi de finances 2026), redevances ARPCE, taxe sur les transferts d'argent mobile.",
           "wordTarget": 1100,
-          "faq": ["Quelles taxes s'appliquent au secteur télécom au Congo ?"],
-          "internalLinks": ["loi-finances-2026-congo-mesures-fiscales.html"],
+          "faq": [
+            "Quelles taxes s'appliquent au secteur télécom au Congo ?"
+          ],
+          "internalLinks": [
+            "loi-finances-2026-congo-mesures-fiscales.html"
+          ],
           "status": "pending"
         },
         {
@@ -637,8 +880,13 @@
           "priority": "quick-win",
           "description": "Régime fiscal des associations reconnues d'utilité publique, ONG, fondations : IS, TVA, TUS, patente et obligations déclaratives.",
           "wordTarget": 1200,
-          "faq": ["Les ONG paient-elles des impôts au Congo ?", "Une association est-elle exonérée d'IS au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html"],
+          "faq": [
+            "Les ONG paient-elles des impôts au Congo ?",
+            "Une association est-elle exonérée d'IS au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -649,8 +897,14 @@
           "priority": "quick-win",
           "description": "Obligations fiscales du commerçant en ligne : NIF, TVA, IS/IRPP, SFEC, déclaration et cas des plateformes étrangères.",
           "wordTarget": 1200,
-          "faq": ["Un vendeur en ligne doit-il payer la TVA au Congo ?", "Faut-il un NIF pour vendre en ligne au Congo ?"],
-          "internalLinks": ["fiscalite-entreprises-congo-2026.html", "sfec-facture-electronique-congo.html"],
+          "faq": [
+            "Un vendeur en ligne doit-il payer la TVA au Congo ?",
+            "Faut-il un NIF pour vendre en ligne au Congo ?"
+          ],
+          "internalLinks": [
+            "fiscalite-entreprises-congo-2026.html",
+            "sfec-facture-electronique-congo.html"
+          ],
           "status": "pending"
         }
       ]
@@ -668,8 +922,12 @@
           "priority": "quick-win",
           "description": "Nouvelle taxe environnementale de la loi de finances 2026 : assiette, taux, secteurs visés et impact budgétaire.",
           "wordTarget": 1000,
-          "faq": ["Qui paie la redevance carbone au Congo ?"],
-          "internalLinks": ["loi-finances-2026-congo-mesures-fiscales.html"],
+          "faq": [
+            "Qui paie la redevance carbone au Congo ?"
+          ],
+          "internalLinks": [
+            "loi-finances-2026-congo-mesures-fiscales.html"
+          ],
           "status": "pending"
         },
         {
@@ -680,8 +938,14 @@
           "priority": "quick-win",
           "description": "Régime fiscal des ZES intégré au CGI par la loi de finances 2026 : exonérations IS, TVA, droits de douane, durée et conditions.",
           "wordTarget": 1300,
-          "faq": ["Quels sont les avantages fiscaux d'une ZES au Congo ?", "Combien de ZES existent au Congo ?"],
-          "internalLinks": ["loi-finances-2026-congo-mesures-fiscales.html", "exonerations-fiscales-congo-2026.html"],
+          "faq": [
+            "Quels sont les avantages fiscaux d'une ZES au Congo ?",
+            "Combien de ZES existent au Congo ?"
+          ],
+          "internalLinks": [
+            "loi-finances-2026-congo-mesures-fiscales.html",
+            "exonerations-fiscales-congo-2026.html"
+          ],
           "status": "pending"
         },
         {
@@ -692,8 +956,13 @@
           "priority": "quick-win",
           "description": "Limitation des paiements en espèces pour les entreprises : seuil, sanctions et lien avec la déductibilité des charges.",
           "wordTarget": 1000,
-          "faq": ["Quel est le plafond de paiement en espèces au Congo ?"],
-          "internalLinks": ["loi-finances-2026-congo-mesures-fiscales.html", "charges-deductibles-is-congo.html"],
+          "faq": [
+            "Quel est le plafond de paiement en espèces au Congo ?"
+          ],
+          "internalLinks": [
+            "loi-finances-2026-congo-mesures-fiscales.html",
+            "charges-deductibles-is-congo.html"
+          ],
           "status": "pending"
         }
       ]
@@ -711,8 +980,13 @@
           "priority": "big-bet",
           "description": "Présentation des 10 Actes uniformes (droit commercial, sociétés, sûretés, recouvrement, arbitrage, comptabilité, transport, coopératives, médiation) et leur impact pratique.",
           "wordTarget": 2000,
-          "faq": ["Qu'est-ce que l'OHADA ?", "Les Actes uniformes s'appliquent-ils directement au Congo ?"],
-          "internalLinks": ["creer-entreprise-congo-brazzaville-acpce.html"],
+          "faq": [
+            "Qu'est-ce que l'OHADA ?",
+            "Les Actes uniformes s'appliquent-ils directement au Congo ?"
+          ],
+          "internalLinks": [
+            "creer-entreprise-congo-brazzaville-acpce.html"
+          ],
           "status": "pending"
         },
         {
@@ -723,8 +997,13 @@
           "priority": "quick-win",
           "description": "Injonction de payer, saisie-attribution, saisie immobilière : les procédures simplifiées OHADA pour récupérer vos créances.",
           "wordTarget": 1300,
-          "faq": ["Comment recouvrer une créance au Congo ?", "Qu'est-ce que l'injonction de payer OHADA ?"],
-          "internalLinks": ["actes-uniformes-ohada-guide.html"],
+          "faq": [
+            "Comment recouvrer une créance au Congo ?",
+            "Qu'est-ce que l'injonction de payer OHADA ?"
+          ],
+          "internalLinks": [
+            "actes-uniformes-ohada-guide.html"
+          ],
           "status": "pending"
         },
         {
@@ -735,8 +1014,12 @@
           "priority": "fill-in",
           "description": "Conciliation, règlement préventif, redressement judiciaire et liquidation des biens : cadre OHADA et application congolaise.",
           "wordTarget": 1500,
-          "faq": ["Quand une entreprise congolaise doit-elle déclarer cessation de paiements ?"],
-          "internalLinks": ["actes-uniformes-ohada-guide.html"],
+          "faq": [
+            "Quand une entreprise congolaise doit-elle déclarer cessation de paiements ?"
+          ],
+          "internalLinks": [
+            "actes-uniformes-ohada-guide.html"
+          ],
           "status": "pending"
         }
       ]
@@ -754,8 +1037,12 @@
           "priority": "quick-win",
           "description": "Les 10 indicateurs clés (CA, marge, BFR, trésorerie nette, etc.), fréquence de suivi et adaptation au contexte congolais.",
           "wordTarget": 1500,
-          "faq": ["Quels indicateurs financiers suivre dans une PME ?"],
-          "internalLinks": ["outil-pilotage-tresorerie-pme.html"],
+          "faq": [
+            "Quels indicateurs financiers suivre dans une PME ?"
+          ],
+          "internalLinks": [
+            "outil-pilotage-tresorerie-pme.html"
+          ],
           "status": "pending"
         },
         {
@@ -766,8 +1053,12 @@
           "priority": "quick-win",
           "description": "Recenser les encaissements, lister les décaissements, calculer le solde cumulé, identifier les creux et mettre en place les leviers.",
           "wordTarget": 1300,
-          "faq": ["Comment faire un plan de trésorerie prévisionnel ?"],
-          "internalLinks": ["outil-pilotage-tresorerie-pme.html"],
+          "faq": [
+            "Comment faire un plan de trésorerie prévisionnel ?"
+          ],
+          "internalLinks": [
+            "outil-pilotage-tresorerie-pme.html"
+          ],
           "status": "pending"
         },
         {
@@ -778,8 +1069,14 @@
           "priority": "quick-win",
           "description": "Calcul du BFR, leviers d'optimisation (délais clients, stocks, dettes fournisseurs) et spécificités congolaises (retards de paiement publics).",
           "wordTarget": 1300,
-          "faq": ["Comment calculer le BFR d'une PME ?", "Comment réduire le BFR ?"],
-          "internalLinks": ["outil-pilotage-tresorerie-pme.html", "tableau-bord-financier-pme-congo.html"],
+          "faq": [
+            "Comment calculer le BFR d'une PME ?",
+            "Comment réduire le BFR ?"
+          ],
+          "internalLinks": [
+            "outil-pilotage-tresorerie-pme.html",
+            "tableau-bord-financier-pme-congo.html"
+          ],
           "status": "pending"
         }
       ]
