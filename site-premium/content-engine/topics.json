@@ -103,7 +103,8 @@
             "statut-entreprenant-congo.html",
             "fiscalite-entreprises-congo-2026.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-10-31"
         },
         {
           "slug": "double-imposition-france-congo",
