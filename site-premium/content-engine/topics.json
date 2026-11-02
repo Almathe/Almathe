@@ -198,7 +198,8 @@
             "teledeclarer-tva-congo-etapes.html",
             "tva-import-export-congo.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-11-02"
         },
         {
           "slug": "tva-taux-reduit-5-pourcent-congo",
