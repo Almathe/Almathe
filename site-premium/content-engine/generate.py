@@ -224,7 +224,7 @@ def generate_new_topic(data, fiscal_texts=None):
             "propose un article qui l'analyse pour les dirigeants de PME.\n"
         )
 
-    prompt = f"""Tu es stratège de contenu pour le cabinet de consulting Almathe & Associés (https://almathe.net), spécialisé en fiscalité, finance et conseil aux entreprises au Congo-Brazzaville et en France.
+    prompt = f"""Tu es stratège de contenu pour le cabinet d'expertise financière Almathe & Associés (https://almathe.net), spécialisé en fiscalité, direction financière externalisée (DAF) et conformité SFEC/E-TAX pour entreprises au Congo-Brazzaville et en France.
 
 ARTICLES DÉJÀ PUBLIÉS (ne PAS répéter ces sujets) :
 {published_list}
@@ -365,11 +365,11 @@ def generate_article_content(topic, cluster, research_context):
             + "\n".join(f"- {q}" for q in faq_items)
         )
 
-    prompt = f"""Tu es rédacteur expert en fiscalité congolaise pour le cabinet de consulting Almathe & Associés (https://almathe.net).
+    prompt = f"""Tu es rédacteur expert en fiscalité congolaise pour le cabinet d'expertise financière Almathe & Associés (https://almathe.net).
 
 RÈGLES ABSOLUES :
-- Ne JAMAIS décrire Almathe comme "expert-comptable" — il est consultant en stratégie et finance d'entreprise
-- Le cabinet est un "cabinet de consulting", PAS un cabinet d'expertise comptable
+- Ne JAMAIS décrire Almathe comme "expert-comptable" — il est Associé-Gérant d'un cabinet d'expertise financière et de direction externalisée
+- Le cabinet est un "cabinet d'expertise financière", PAS un cabinet d'expertise comptable
 - Écrire en français professionnel mais accessible, sans jargon non expliqué
 - Citer les sources légales précises (articles du CGI, lois de finances, numéros de textes)
 - Les sources de recherche ci-dessous datent de moins de 30 jours sauf textes officiels

@@ -115,6 +115,12 @@
       "skillPath": "skills/emails/SKILL.md",
       "computedHash": "24be312d773945dda1d21b52fa172a523e9cb005cb3b700fe81f787980d5381c"
     },
+    "firecrawl": {
+      "source": "firecrawl/skills",
+      "sourceType": "github",
+      "skillPath": "skills/core/firecrawl/SKILL.md",
+      "computedHash": "a5e6c731b74eadd9692232ebc7ca82b13decbd7a1aa8ba910489126eda82095e"
+    },
     "free-tools": {
       "source": "coreyhaines31/marketingskills",
       "sourceType": "github",

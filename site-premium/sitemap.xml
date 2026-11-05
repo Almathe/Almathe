@@ -1,217 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pages principales -->
   <url>
     <loc>https://almathe.net/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://almathe.net/prestations.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://almathe.net/nos-offres/</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://almathe.net/daf-a-temps-partage-hauts-de-france.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://almathe.net/nos-offres/daf-a-temps-partage.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://almathe.net/daf-externalise-congo.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://almathe.net/nos-offres/audit-conformite-sfec.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://almathe.net/daf-externalise-congo-v2.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <loc>https://almathe.net/nos-offres/projets-structuration.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://almathe.net/daf-externalise-france.html</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/formation.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://almathe.net/le-cabinet.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/a-propos.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/contact.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pages géolocalisées (non redirigées) -->
+  <url>
+    <loc>https://almathe.net/daf-a-temps-partage-hauts-de-france.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/daf-externalise-congo.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/annuaire-entreprises.html</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
+
+  <!-- Pages légales -->
+  <url>
+    <loc>https://almathe.net/mentions-legales.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/confidentialite.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Ressources & Blog -->
   <url>
     <loc>https://almathe.net/ressources/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://almathe.net/ressources/qu-est-ce-qu-un-daf-a-temps-partage.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/daf-externalise-vs-expert-comptable.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <loc>https://almathe.net/ressources/facture-electronique-obligatoire-congo-novembre-2026.html</loc>
+    <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/daf-a-temps-partage-prix.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/outil-pilotage-tresorerie-pme.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/sfec-facture-electronique-congo.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/e-tax-declaration-paiement-impots-congo.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/report-sfec-facture-electronique-congo.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/teledeclarer-tva-congo-etapes.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://almathe.net/ressources/impot-traitements-salaires-its-congo.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/impot-societes-is-congo-2026.html</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://almathe.net/ressources/fiscalite-entreprises-congo-2026.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/loi-finances-2026-congo-mesures-fiscales.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/fiscalite-entreprises-congo-2026.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/statut-entreprenant-congo.html</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://almathe.net/ressources/report-sfec-facture-electronique-congo.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/retard-fiscal-creation-entreprise-congo.html</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://almathe.net/ressources/impot-societes-is-congo-2026.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://almathe.net/ressources/creer-entreprise-congo-brazzaville-acpce.html</loc>
-    <lastmod>2026-07-09</lastmod>
+    <loc>https://almathe.net/ressources/impot-traitements-salaires-its-congo.html</loc>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/ressources/journal-officiel-congo-dernieres-publications.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/mentions-legales.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://almathe.net/confidentialite.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/calendrier-fiscal-congo-2027.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://almathe.net/ressources/penalites-retard-fiscal-congo.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://almathe.net/ressources/regime-fiscal-reel-simplifie-congo.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://almathe.net/ressources/fiscalite-auto-entrepreneur-congo.html</loc>
     <lastmod>2026-10-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://almathe.net/ressources/tva-import-export-congo.html</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
     <loc>https://almathe.net/ressources/credit-tva-remboursement-congo.html</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/qu-est-ce-qu-un-daf-a-temps-partage.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/daf-externalise-vs-expert-comptable.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/daf-a-temps-partage-prix.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/outil-pilotage-tresorerie-pme.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/creer-entreprise-congo-brazzaville-acpce.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/retard-fiscal-creation-entreprise-congo.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/statut-entreprenant-congo.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://almathe.net/ressources/journal-officiel-congo-dernieres-publications.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>

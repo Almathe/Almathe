@@ -1,16 +1,19 @@
-# Almathe & Associés · Cabinet de Consulting
+# Almathe & Associés · Expertise Financière & Direction Externalisée
 
-> Cabinet de consulting dirigé par Almathe Biyekele Kimfoko, consultant en stratégie et finance d'entreprise, pour PME, TPE et startups. Zones d'intervention : France (Hauts-de-France) et Afrique centrale (Congo-Brazzaville). Missions : conseil en stratégie, pilotage financier, direction financière externalisée (DAF), contrôle de gestion, trésorerie, comptabilité, fiscalité, RH & droit social, levée de fonds. Contact : contact@almathe.net · France +33 6 38 88 84 02 · Congo +242 06 889 65 58.
+> Cabinet d'expertise financière et de direction externalisée (DAF) dirigé par Almathe Biyekele Kimfoko (Associé-Gérant). Corridor France – Congo-Brazzaville. Trois piliers d'intervention : DAF à temps partagé, audit & conformité SFEC/E-TAX, projets de structuration (due diligence, levée de fonds, reporting IFRS/SYSCOHADA). Cible : filiales de groupes, PME structurées, investisseurs diaspora. Contact : contact@almathe.net · France +33 6 38 88 84 02 · Congo +242 06 889 65 58.
+
+## Nos Offres
+- [DAF à Temps Partagé](https://almathe.net/nos-offres/daf-a-temps-partage.html) : direction financière externalisée 1 à 2 jours/semaine. Budget prévisionnel, trésorerie rolling, animation CODIR, supervision comptable. Forfait mensuel, engagement 3 mois.
+- [Pack Sécurité Fiscale SFEC/E-TAX](https://almathe.net/nos-offres/audit-conformite-sfec.html) : audit de conformité en 15 jours. Revue facturation, paramétrage ERP, formation équipes, vérification télédéclarations.
+- [Projets & Structuration](https://almathe.net/nos-offres/projets-structuration.html) : due diligence financière et fiscale, levée de fonds, reporting IFRS/SYSCOHADA, restructuration. Pour investisseurs et groupes internationaux.
+
+## Le Cabinet
+- [Le Cabinet](https://almathe.net/le-cabinet.html) : modèle hybride France – Congo, double ancrage Brazzaville/Pointe-Noire et Paris. DSCG, Master CCA, Master Recherche Paris 1 Panthéon-Sorbonne.
+- [Contact & Diagnostic](https://almathe.net/contact.html) : formulaire de cadrage préalable, réponse sous 24h.
 
 ## Zones d'intervention
-- [DAF à temps partagé Hauts-de-France](https://almathe.net/daf-a-temps-partage-hauts-de-france.html) : Lille, Roubaix, Tourcoing, Valenciennes, Douai, Dunkerque, Arras, Lens, Calais, Boulogne-sur-Mer, Amiens, Beauvais, Compiègne, Saint-Quentin. Sur site ou à distance.
-- [DAF externalisé Congo-Brazzaville](https://almathe.net/daf-externalise-congo.html) : Brazzaville & Pointe-Noire. Comptabilité SYSCOHADA/OHADA, fiscalité congolaise (IS, TVA, ITS, SFEC, E-TAX), paie & CNSS, reporting maison mère.
-
-## Prestations
-- [Prestations](https://almathe.net/prestations.html) : conseil en stratégie & développement, pilotage financier & DAF externalisé, comptabilité & fiscalité, RH & droit social, projets stratégiques (levée de fonds, restructuration).
-- [Formation](https://almathe.net/formation.html) : formations sur mesure en comptabilité, fiscalité, contrôle de gestion, analyse financière, paie, trésorerie et Excel.
-- [À propos](https://almathe.net/a-propos.html) : parcours et diplômes (DSCG, Master CCA, Master Recherche Paris 1 Panthéon-Sorbonne).
-- [Contact](https://almathe.net/contact.html) : prise de rendez-vous, réponse sous 24h.
+- Congo-Brazzaville : Brazzaville & Pointe-Noire. Comptabilité SYSCOHADA/OHADA, fiscalité congolaise (IS, TVA, ITS, SFEC, E-TAX), paie & CNSS, reporting maison mère.
+- France (Hauts-de-France) : Lille, Roubaix, Tourcoing, Valenciennes, Douai, Dunkerque, Arras, Lens, Calais, Boulogne-sur-Mer, Amiens, Beauvais, Compiègne, Saint-Quentin.
 
 ## Ressources · Direction financière (PME)
 - [Qu'est-ce qu'un DAF à temps partagé ?](https://almathe.net/ressources/qu-est-ce-qu-un-daf-a-temps-partage.html)
@@ -22,15 +25,19 @@
 - [Crédit de TVA au Congo : conditions et procédure de remboursement](https://almathe.net/ressources/credit-tva-remboursement-congo.html)
 - [TVA à l'importation et à l'exportation au Congo : règles et taux](https://almathe.net/ressources/tva-import-export-congo.html)
 - [Fiscalité de l'auto-entrepreneur au Congo : impôts, taxes et obligations](https://almathe.net/ressources/fiscalite-auto-entrepreneur-congo.html)
-- [Régime réel simplifié vs régime réel normal au Congo : lequel choisir ?](https://almathe.net/ressources/regime-fiscal-reel-simplifie-congo.html)
-- [Pénalités de retard fiscal au Congo : montants, majorations et recours](https://almathe.net/ressources/penalites-retard-fiscal-congo.html)
+- [Facture électronique obligatoire au Congo depuis le 1er novembre 2026](https://almathe.net/ressources/facture-electronique-obligatoire-congo-novembre-2026.html)
+- [SFEC : la facture électronique certifiée au Congo](https://almathe.net/ressources/sfec-facture-electronique-congo.html)
+- [Facture électronique (SFEC) au Congo : le calendrier reporté](https://almathe.net/ressources/report-sfec-facture-electronique-congo.html)
+- [E-TAX : déclarer et payer ses impôts en ligne au Congo](https://almathe.net/ressources/e-tax-declaration-paiement-impots-congo.html)
+- [Télédéclarer sa TVA au Congo, étape par étape](https://almathe.net/ressources/teledeclarer-tva-congo-etapes.html)
 - [Calendrier fiscal Congo 2027 : toutes les échéances mois par mois](https://almathe.net/ressources/calendrier-fiscal-congo-2027.html)
 - [Fiscalité des entreprises au Congo en 2026 : le panorama](https://almathe.net/ressources/fiscalite-entreprises-congo-2026.html)
 - [Loi de finances 2026 (Congo) : les 10 mesures fiscales à connaître](https://almathe.net/ressources/loi-finances-2026-congo-mesures-fiscales.html)
 - [Impôt sur les sociétés (IS) au Congo en 2026 : taux & SFEC](https://almathe.net/ressources/impot-societes-is-congo-2026.html)
 - [ITS : l'impôt sur les traitements et salaires (Congo)](https://almathe.net/ressources/impot-traitements-salaires-its-congo.html)
-- [SFEC : la facture électronique certifiée au Congo](https://almathe.net/ressources/sfec-facture-electronique-congo.html)
-- [Facture électronique (SFEC) au Congo : le calendrier reporté](https://almathe.net/ressources/report-sfec-facture-electronique-congo.html)
-- [E-TAX : déclarer et payer ses impôts en ligne au Congo](https://almathe.net/ressources/e-tax-declaration-paiement-impots-congo.html)
-- [Télédéclarer sa TVA au Congo, étape par étape](https://almathe.net/ressources/teledeclarer-tva-congo-etapes.html)
+- [Régime réel simplifié vs régime réel normal au Congo : lequel choisir ?](https://almathe.net/ressources/regime-fiscal-reel-simplifie-congo.html)
+- [Pénalités de retard fiscal au Congo : montants, majorations et recours](https://almathe.net/ressources/penalites-retard-fiscal-congo.html)
+- [Créer son entreprise au Congo-Brazzaville en 48h (guide ACPCE)](https://almathe.net/ressources/creer-entreprise-congo-brazzaville-acpce.html)
+- [Retard fiscal à la création au Congo : évitez le faux départ](https://almathe.net/ressources/retard-fiscal-creation-entreprise-congo.html)
 - [Le statut de l'entreprenant au Congo](https://almathe.net/ressources/statut-entreprenant-congo.html)
+- [Journal officiel du Congo : dernières publications](https://almathe.net/ressources/journal-officiel-congo-dernieres-publications.html)
