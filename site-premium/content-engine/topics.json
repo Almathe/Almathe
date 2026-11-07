@@ -232,7 +232,8 @@
           "internalLinks": [
             "teledeclarer-tva-congo-etapes.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-11-07"
         },
         {
           "slug": "exonerations-tva-congo",
