@@ -251,7 +251,8 @@
             "teledeclarer-tva-congo-etapes.html",
             "fiscalite-entreprises-congo-2026.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-11-08"
         },
         {
           "slug": "facture-tva-conforme-congo",
