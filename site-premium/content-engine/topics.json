@@ -270,7 +270,8 @@
             "sfec-facture-electronique-congo.html",
             "teledeclarer-tva-congo-etapes.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-11-11"
         }
       ]
     },
