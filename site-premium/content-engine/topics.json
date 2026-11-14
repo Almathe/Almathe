@@ -296,7 +296,8 @@
             "impot-societes-is-congo-2026.html",
             "fiscalite-entreprises-congo-2026.html"
           ],
-          "status": "pending"
+          "status": "published",
+          "publishedDate": "2026-11-14"
         },
         {
           "slug": "acomptes-is-congo-calcul",

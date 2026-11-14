@@ -22,6 +22,7 @@
 - [Pourquoi votre PME a besoin d'un outil de pilotage de trésorerie](https://almathe.net/ressources/outil-pilotage-tresorerie-pme.html)
 
 ## Ressources · Fiscalité au Congo
+- [Charges déductibles de l'IS au Congo : ce que vous pouvez (et ne pouvez pas) déduire](https://almathe.net/ressources/charges-deductibles-is-congo.html)
 - [Comment rédiger une facture TVA conforme au Congo (modèle inclus)](https://almathe.net/ressources/facture-tva-conforme-congo.html)
 - [Exonérations de TVA au Congo : la liste complète](https://almathe.net/ressources/exonerations-tva-congo.html)
 - [TVA sur les prestations de services au Congo : règles de territorialité](https://almathe.net/ressources/tva-prestation-services-congo.html)
